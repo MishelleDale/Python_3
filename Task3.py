@@ -10,8 +10,9 @@ min = 1
 max = 0
 
 for i in list:
-    if (i - int(i)) < min:
+    if (i - int(i)) <= min:
         min = i - int(i)
     if (i - int(i)) >= max:
         max = i - int(i)  
 print(round(max-min, 2))
+
